@@ -1,5 +1,18 @@
 # bb2
 funkcje rekurencje
+#Function
+
+def pobierz_dane(liczba_cyfr):
+    lista = []
+    for i in range(liczba_cyfr):
+        lista.append(int(input("Podaj liczbę: ")))
+    return lista
+
+liczba_cyfr = int(input("Ile chcesz liczb: "))
+wynik = pobierz_dane(liczba_cyfr)
+print(wynik)
+
+
 
 def srodkowa_wartosc(x):
     if len(x)%2 ==0:
